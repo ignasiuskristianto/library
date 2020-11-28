@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+	<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/perpustakaan</property>
+		<property name="hibernate.connection.username">postgres</property>
+		<property name="hibernate.connection.password">1234</property>
+		<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+		<property name="hibernate.connection.release_mode">after_transaction</property>
+		
+		<property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>		
+		<property name="hibernate.c3p0.idle_test_period">600</property>
+	    <property name="hibernate.c3p0.min_size">1</property>
+	    <property name="hibernate.c3p0.max_size">1</property>
+	    <property name="hibernate.c3p0.timeout">100</property>
+	    <property name="hibernate.c3p0.acquireRetryDelay">1000</property>
+	    <property name="hibernate.c3p0.acquireRetryAttempts">60</property>
+	    <property name="hibernate.c3p0.breakAfterAcquireFailure">false</property>
+				
+		<property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+		<property name="hibernate.cache.use_query_cache">true</property>
+		<property name="hibernate.cache.use_second_level_cache">true</property>
+		<property name="hibernate.cache.use_minimal_puts">true</property>	
+		
+		<mapping resource="com/ams/hbm/User.hbm" />
+		<mapping resource="com/ams/hbm/Anggota.hbm" />
+		<mapping resource="com/ams/hbm/KategoriBuku.hbm" />
+		<mapping resource="com/ams/hbm/Buku.hbm" />
+		<mapping resource="com/ams/hbm/Sewa.hbm" />
+		<mapping resource="com/ams/hbm/DetailSewa.hbm" />
+	</session-factory>
+</hibernate-configuration>

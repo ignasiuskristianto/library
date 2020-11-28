@@ -1,0 +1,321 @@
+BODY {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial
+}
+TD {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial
+}
+A {
+	FONT-SIZE: 11px; COLOR: #333366; FONT-FAMILY: Verdana, Arial; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #a4b4c2
+}
+A.linkProp1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #000066
+}
+A.linkProp2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%; COLOR: #000066
+}
+A.linkProp3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #477eb3; FONT-FAMILY: arial,verdana
+}
+A.linkProp4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3c6a96; FONT-FAMILY: arial,verdana
+}
+A.sort2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial; BACKGROUND-COLOR: #255c91; TEXT-DECORATION: none
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: white; SCROLLBAR-HIGHLIGHT-COLOR: #eeeeee; SCROLLBAR-SHADOW-COLOR: #eeeeee; SCROLLBAR-3DLIGHT-COLOR: #eeeeee; SCROLLBAR-ARROW-COLOR: #777777; SCROLLBAR-TRACK-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: #eeeeee; SCROLLBAR-BASE-COLOR: #ffffff
+}
+INPUT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana,Arial; BACKGROUND-COLOR: #ffffff
+}
+UNKNOWN {
+	COLOR: #000033; BACKGROUND-COLOR: #f5f5f5
+}
+UNKNOWN {
+	COLOR: #000033; BACKGROUND-COLOR: #f5f5f5
+}
+INPUT.cb {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+INPUT.rb {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+INPUT.text1 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+INPUT.text2 {
+	BORDER-RIGHT: #ffffff 1px; BORDER-TOP: #ffffff 1px; FONT-SIZE: 10px; BORDER-LEFT: #ffffff 1px; BORDER-BOTTOM: #ffffff 1px
+}
+INPUT.text3 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+INPUT.text4 {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #ffffff 1px solid; COLOR: #000066; BORDER-BOTTOM: #ffffff 1px solid
+}
+INPUT.whiteBtn {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 10px; BORDER-LEFT: medium none; COLOR: #000066; BORDER-BOTTOM: medium none
+}
+INPUT.greyBtn {
+	BORDER-RIGHT: #eeeeee 0px; BORDER-TOP: #eeeeee 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BORDER-LEFT: #eeeeee 0px; COLOR: #000000; BORDER-BOTTOM: #eeeeee 0px; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: right
+}
+SELECT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana,Arial
+}
+UNKNOWN {
+	COLOR: #000033; BACKGROUND-COLOR: #f5f5f5
+}
+UNKNOWN {
+	COLOR: #000033; BACKGROUND-COLOR: #f5f5f5
+}
+TEXTAREA {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana,Arial
+}
+UNKNOWN {
+	COLOR: #000033; BACKGROUND-COLOR: #f5f5f5
+}
+UNKNOWN {
+	COLOR: #000033; BACKGROUND-COLOR: #f5f5f5
+}
+MARQUEE {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffcc00
+}
+.txtShelving1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 35px; COLOR: #000000; FONT-FAMILY: Arial
+}
+.txtShelving2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Arial
+}
+.txtTitle1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #990000; FONT-FAMILY: Arial
+}
+.txtTitle2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Arial
+}
+.txtTitle3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Arial
+}
+.txtTitle4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial
+}
+.txtWarning {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #990000; FONT-FAMILY: Arial
+}
+.txtWarningPeriod {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Arial
+}
+.txtErrorPage {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333366; FONT-FAMILY: Arial
+}
+.txtSubTitle1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana
+}
+.txtProp1 {
+	FONT-SIZE: 11px; COLOR: #000000
+}
+.txtProp2 {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+.txtProp4 {
+	FONT-SIZE: 10px; COLOR: #000000
+}
+.txtSmall {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: Arial
+}
+.txtPayment {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 18px; BORDER-LEFT: #ffffff 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: Courier New; TEXT-ALIGN: center
+}
+.txtStack {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: Verdana,Arial
+}
+.txtStack2 {
+	FONT-SIZE: 10px; COLOR: #990000; FONT-FAMILY: Verdana,Arial
+}
+.txtPrint {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial
+}
+.txtTree {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Courier New
+}
+.txtMessage {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #990000; FONT-FAMILY: Arial
+}
+.txtPRE {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Trebuchet MS
+}
+.tblHeader1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial; BACKGROUND-COLOR: #990000
+}
+.tblHeader2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial; BACKGROUND-COLOR: #255c91
+}
+.tblHeader3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial; BACKGROUND-COLOR: #cccccc
+}
+.tblHeader4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Trebuchet MS, Arial; BACKGROUND-COLOR: #eeeeee
+}
+.tblHeader5 {
+	BORDER-RIGHT: #eeeeee 1px solid; BORDER-TOP: #eeeeee 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BORDER-LEFT: #eeeeee 1px solid; COLOR: #000000; BORDER-BOTTOM: #eeeeee 1px solid; FONT-FAMILY: Trebuchet MS, Arial; BACKGROUND-COLOR: #e0e0e0
+}
+.tblHeaderPrint {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial,Verdana
+}
+.tblHeaderCopy {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana,Arial; BACKGROUND-COLOR: #366da2
+}
+.tblBorderDot {
+	BORDER-RIGHT: #eeeeee 1px dotted; BORDER-TOP: #eeeeee 1px dotted; BORDER-LEFT: #eeeeee 1px dotted; BORDER-BOTTOM: #eeeeee 1px dotted
+}
+.tblBorderSolid {
+	BORDER-RIGHT: #eeeeee 1px solid; BORDER-TOP: #eeeeee 1px solid; BORDER-LEFT: #eeeeee 1px solid; BORDER-BOTTOM: #eeeeee 1px solid
+}
+.clCMAbs {
+	LEFT: 0px; VISIBILITY: hidden; POSITION: absolute; TOP: 0px
+}
+.clBar {
+	VISIBILITY: hidden; WIDTH: 10px; POSITION: absolute; HEIGHT: 10px
+}
+.clLevel0 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; FONT-FAMILY: Verdana; POSITION: absolute
+}
+.clLevel0over {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; FONT-FAMILY: Verdana; POSITION: absolute
+}
+.clLevel0 {
+	BACKGROUND-COLOR: #779ac1; layer-background-color: #779AC1
+}
+.clLevel0over {
+	CURSOR: hand
+}
+.clLevel0border {
+	VISIBILITY: hidden; POSITION: absolute
+}
+.clLevel1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; FONT-FAMILY: Trebuchet MS, Arial; POSITION: absolute
+}
+.clLevel1over {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; FONT-FAMILY: Trebuchet MS, Arial; POSITION: absolute
+}
+.clLevel1 {
+	COLOR: #ffffff; BACKGROUND-COLOR: #779ac1; layer-background-color: #779AC1
+}
+.clLevel1over {
+	CURSOR: hand; COLOR: #779ac1; BACKGROUND-COLOR: #bcd7f1; layer-background-color: #BCD7F1
+}
+.clLevel1border {
+	VISIBILITY: hidden; POSITION: absolute; BACKGROUND-COLOR: #628aba; layer-background-color: #628ABA
+}
+.clLevel2 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; FONT-FAMILY: Trebuchet MS, Arial; POSITION: absolute
+}
+.clLevel2over {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; FONT-FAMILY: Trebuchet MS, Arial; POSITION: absolute
+}
+.clLevel2 {
+	COLOR: #779ac1; BACKGROUND-COLOR: #bcd7f1; layer-background-color: #BCD7F1
+}
+.clLevel2over {
+	CURSOR: hand; COLOR: #ffffff; BACKGROUND-COLOR: #779ac1; layer-background-color: #779AC1
+}
+.clLevel2border {
+	VISIBILITY: hidden; POSITION: absolute; BACKGROUND-COLOR: #628aba; layer-background-color: #628ABA
+}
+TD.cal {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial,Helvetica; BACKGROUND-COLOR: #f3f3f3
+}
+SELECT.month {
+	FONT-SIZE: 10px; WIDTH: 85px; COLOR: #000000; FONT-FAMILY: Arial,Helvetica
+}
+INPUT.year {
+	FONT-SIZE: 10px; WIDTH: 30px; COLOR: #000000; FONT-FAMILY: Arial,Helvetica
+}
+TD.calDaysColor {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial,Helvetica; BACKGROUND-COLOR: #333366
+}
+TD.calWeekend {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial,Helvetica; BACKGROUND-COLOR: #cccccc
+}
+TD.calBgColor {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial,Helvetica; BACKGROUND-COLOR: #dddddd
+}
+.calBorderColor {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial,Helvetica; BACKGROUND-COLOR: #a9a9a9
+}
+TD.calHighlightColor {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial,Helvetica; BACKGROUND-COLOR: #dddddd
+}
+A.cal {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial,Helvetica; TEXT-DECORATION: none
+}
+A.cal:hover {
+	FONT-SIZE: 11px; COLOR: #993333; FONT-FAMILY: Arial,Helvetica; TEXT-DECORATION: none
+}
+.disabled {
+	FONT-SIZE: 11px; COLOR: #808080; FONT-FAMILY: Arial,Helvetica; TEXT-DECORATION: none
+}
+A.tab-link {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Trebuchet MS, Arial; TEXT-DECORATION: none
+}
+A.tab-link:hover {
+	COLOR: #000066
+}
+.tab-button {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: normal; BACKGROUND: #eeeeee; PADDING-BOTTOM: 3px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 170px; CURSOR: hand; PADDING-TOP: 3px; BORDER-BOTTOM: #eeeeee 1px solid; HEIGHT: 20px
+}
+.glconfig-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 10px; LEFT: 14px; VISIBILITY: hidden; PADDING-BOTTOM: 10px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 770px; PADDING-TOP: 10px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 201px
+}
+.item-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 10px; LEFT: 282px; VISIBILITY: hidden; PADDING-BOTTOM: 10px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 700px; PADDING-TOP: 10px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 191px
+}
+.member-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; BORDER-TOP: #eeeeee 1px solid; LEFT: 29px; VISIBILITY: hidden; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 940px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 162px
+}
+.customer-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 10px; LEFT: 14px; VISIBILITY: hidden; PADDING-BOTTOM: 10px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 975px; PADDING-TOP: 10px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 340px
+}
+.vendor-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 10px; LEFT: 14px; VISIBILITY: hidden; PADDING-BOTTOM: 10px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 965px; PADDING-TOP: 10px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 350px
+}
+.employee-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 10px; LEFT: 14px; VISIBILITY: hidden; PADDING-BOTTOM: 10px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 965px; PADDING-TOP: 10px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 381px
+}
+.security-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 10px; LEFT: 14px; VISIBILITY: hidden; PADDING-BOTTOM: 10px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 750px; PADDING-TOP: 10px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 198px
+}
+.cashflow-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 10px; LEFT: 14px; VISIBILITY: hidden; PADDING-BOTTOM: 10px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 960px; PADDING-TOP: 10px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 210px
+}
+.jobcosting-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 17px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 17px; LEFT: 8px; VISIBILITY: hidden; PADDING-BOTTOM: 17px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 980px; PADDING-TOP: 17px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 379px
+}
+.jcrollover-tab-body {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 17px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 17px; LEFT: 8px; VISIBILITY: hidden; PADDING-BOTTOM: 17px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 980px; PADDING-TOP: 17px; BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TOP: 425px
+}
+.treetitle {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; CURSOR: default; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Tahoma,Verdana,Arial, Helvetica, sans-serif
+}
+.editednode {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; CURSOR: default; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Tahoma,Verdana,Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.editednodeinput {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #000000 1px solid; WIDTH: 150px; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Tahoma,Verdana,Arial, Helvetica, sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #ffffff
+}
+.treetitleselectedfocused {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; CURSOR: default; COLOR: highlighttext; PADDING-TOP: 2px; FONT-FAMILY: Tahoma,Verdana,Arial, Helvetica, sans-serif; BACKGROUND-COLOR: highlight
+}
+.treetitleselectedblured {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; CURSOR: default; COLOR: windowtext; PADDING-TOP: 2px; FONT-FAMILY: Tahoma,Verdana,Arial, Helvetica, sans-serif; BACKGROUND-COLOR: menu
+}
+DIV.qty_info {
+	
+}
+DIV.qty_info UL {
+	BORDER-RIGHT: #888 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #888 1px solid; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #888 1px solid; WIDTH: 250px; PADDING-TOP: 0px; BORDER-BOTTOM: #888 1px solid; LIST-STYLE-TYPE: none
+}
+DIV.qty_info UL LI {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 3px
+}

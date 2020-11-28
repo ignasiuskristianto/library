@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.ams.model">
+<class
+name="Anggota"
+table="anggota"
+batch-size="100"
+>
+
+<meta attribute="sync-DAO">true</meta>
+
+<id
+name="Id"
+type="long"
+column="id_anggota"
+>
+<generator class="sequence">
+<param name="sequence">anggota_seq</param>
+</generator>
+</id>
+
+<property
+name="Kode"
+column="kode_anggota"
+type="string"
+not-null="true"
+unique="true"
+/>
+
+<property
+name="Nama"
+column="nama_anggota"
+type="string"
+not-null="true"
+/>
+
+<property 
+name="TglLahir"
+column="tgl_lahir"
+type="date"
+not-null="true"
+/>
+
+<property 
+name="TglGabung"
+column="tgl_gabung"
+type="date"
+not-null="true"
+/>
+
+<property
+name="CreatedBy"
+column="created_by"
+type="string"
+not-null="true"
+/>
+
+<property
+name="CreatedOn"
+column="created_on"
+type="timestamp"
+not-null="true"
+/>
+
+<property
+name="UpdatedBy"
+column="updated_by"
+type="string"
+not-null="false"
+/>
+
+<property
+name="UpdatedOn"
+column="updated_on"
+type="timestamp"
+not-null="false"
+/>
+
+</class>
+</hibernate-mapping>

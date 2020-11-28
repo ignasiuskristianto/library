@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.ams.model">
+<class
+name="Buku"
+table="buku"
+batch-size="100"
+>
+
+<meta attribute="sync-DAO">true</meta>
+
+<id
+name="Id"
+type="long"
+column="id_buku"
+>
+<generator class="sequence">
+<param name="sequence">buku_seq</param>
+</generator>
+</id>
+
+<many-to-one 
+name="Kategori"
+class="com.ams.model.KategoriBuku"
+fetch="join">
+	<column name="id_kategori" not-null="true" />
+</many-to-one>
+
+<property
+name="Kode"
+column="kode_buku"
+type="string"
+not-null="true"
+unique="true"
+/>
+
+<property
+name="Judul"
+column="judul_buku"
+type="string"
+not-null="true"
+/>
+
+<property 
+name="Jumlah"
+column="jumlah_buku"
+type="integer"
+not-null="true"
+/>
+
+<property
+name="CreatedBy"
+column="created_by"
+type="string"
+not-null="true"
+/>
+
+<property
+name="CreatedOn"
+column="created_on"
+type="timestamp"
+not-null="true"
+/>
+
+<property
+name="UpdatedBy"
+column="updated_by"
+type="string"
+not-null="false"
+/>
+
+<property
+name="UpdatedOn"
+column="updated_on"
+type="timestamp"
+not-null="false"
+/>
+
+</class>
+</hibernate-mapping>

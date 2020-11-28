@@ -1,0 +1,127 @@
+html, body, #countrydivcontainer {
+height: 100%;
+}
+
+.marginbody{
+margin: 0px;
+}
+
+#countrydivcontainer{
+border:1px solid gray; width:99.9%; padding: 0px; height: 100%;
+}
+
+.smalltext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:5px;
+}
+
+.text01{
+	font-family:Verdana, "Arial", Helvetica, sans-serif;
+	font-size:12px;
+	color:#6eb4e8;
+//#006633
+line-height:10px;
+}
+
+.text02{
+	font-family:Verdana, "Arial", Helvetica, sans-serif;
+	font-size:12px;
+color: #c0ddf3;
+//#339933
+line-height:20px;
+}
+
+.text03{
+font-family:Verdana, "Arial", Helvetica, sans-serif;
+font-size:16px;
+color:#3483be;
+}
+
+.text04{
+font-family:Verdana, "Arial", Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+text-decoration:none;
+}
+.text04 a:link, .text04 a:visited, .text04 a:active{
+font-family:Verdana, "Arial", Helvetica, sans-serif;
+font-size:11px;
+color:#095605;
+text-decoration:none;
+}
+.text04 a:hover{
+font-family:Verdana, "Arial", Helvetica, sans-serif;
+font-size:11px;
+color:#042d02;
+text-decoration:underline;
+}
+
+.text05{
+font-family:Verdana, "Arial", Helvetica, sans-serif;
+font-size:11px;
+color:#dad9d7;
+text-decoration:none;
+}
+.text05 a:link, .text05 a:visited, .text05 a:active{
+font-family:Verdana, "Arial", Helvetica, sans-serif;
+font-size:11px;
+color:#dad9d7;
+text-decoration:none;
+}
+.text05 a:hover{
+font-family:Verdana, "Arial", Helvetica, sans-serif;
+font-size:11px;
+color:#dad9d7;
+text-decoration:underline;
+}
+
+.text06{
+font-family:Verdana, "Arial", Helvetica, sans-serif;
+font-size:12px;
+color:#000000;
+text-decoration:none;
+line-height:20px;
+}
+
+.textbox, .selectBox{
+font-family:Verdana, "Arial", Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+}
+
+.borderLeft{
+border-left: 1px solid #dadad8;
+}
+
+.padding{
+padding:5px;
+}
+
+.button{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#000000;
+background-image:url(../images/bg_button.gif);
+background-repeat:repeat-x;
+border:1px solid #5576a1;
+}
+
+
+/*===============================================Tabbing=============================*/
+pre {text-indent: 30px}
+#tabmenu { color: #000; border-bottom: 1px solid black; margin: 12px 0px 0px 0px; padding: 0px; z-index: 1; padding-left: 10px }
+#tabmenu li { display: inline; overflow: hidden; list-style-type: none; }
+#tabmenu a, a.active { color: #aaaaaa; background: #295229; font: normal 1em verdana, Arial, sans-serif; border: 1px solid black; padding: 2px 5px 0px 5px; margin: 0px; text-decoration: none; }
+#tabmenu a.active { background: #ffffff; border-bottom: 3px solid #ffffff; }
+#tabmenu a:hover { color: #fff; background: #ADC09F; }
+#tabmenu a:visited { color: #E8E9BE; }
+#tabmenu a.active:hover { background: #ffffff; color: #DEDECF; }
+#content {font: 0.9em/1.3em verdana, sans-serif; text-align: justify; background: #ffffff; padding: 20px; border: 1px solid black; border-top: none; z-index: 2; }
+#content a { text-decoration: none; color: #E8E9BE; }
+#content a:hover { background: #aaaaaa; } 
+/*===============================================Tabbing=============================*/
+/*
+.session{ position:fixed; bottom:0px; right:30px; }
+#pesan { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; line-height:20px; filter:alpha('opacity=30'); opacity:0.3; color:#000000; font-weight:bold; background-color:#FFFFFF; border:1px solid #00CC00; padding:10px 100px 10px 30px; position:fixed; margin-right:0px; right:10px; bottom:0px; -moz-border-radius-topleft: 7px; -moz-border-radius-topright: 7px; -moz-border-radius-bottomleft: 7px; -moz-border-radius-bottomright: 7px; margin-bottom:0px; text-decoration:none;   }
+#pesan a{ color:#000000; text-decoration:none; }
+#pesan a:hover{ color:#000000; text-decoration:none; }
+*/

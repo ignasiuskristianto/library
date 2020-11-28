@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+
+    <form-beans>   
+    
+      <!-- Anggota -->
+  <form-bean name="AnggotaForm" type="com.ams.form.AnggotaForm">
+      <form-property name="id" type="java.lang.String" />
+      <form-property name="kode" type="java.lang.String" />
+      <form-property name="nama" type="java.lang.String" />
+      <form-property name="tglLahir" type="java.lang.String" />
+      <form-property name="tglGabung" type="java.lang.String" />
+      <form-property name="fromBirthDate" type="java.lang.String" />
+      <form-property name="toBirthDate" type="java.lang.String" />
+      <form-property name="fromDate" type="java.lang.String" />
+      <form-property name="toDate" type="java.lang.String" />
+      <form-property name="start" type="java.lang.String" />
+      <form-property name="count" type="java.lang.String" />
+      <form-property name="total" type="java.lang.String" />
+      <form-property name="page" type="java.lang.String" />
+      <form-property name="subaction" type="java.lang.String" />
+      <form-property name="ascDesc" type="java.lang.String" />
+      <form-property name="orderBy" type="java.lang.String" />
+      <form-property name="PAGER" type="java.lang.String" />
+      <form-property name="PAGERITEM" type="java.lang.String" />
+      <form-property name="gotoPage" type="java.lang.String" />
+      <form-property name="gotoPage2" type="java.lang.String" />
+   </form-bean>  
+   
+     <!-- KategoriBuku -->
+  <form-bean name="KategoriBukuForm" type="com.ams.form.KategoriBukuForm">
+      <form-property name="id" type="java.lang.String" />
+      <form-property name="nama" type="java.lang.String" />
+      <form-property name="start" type="java.lang.String" />
+      <form-property name="count" type="java.lang.String" />
+      <form-property name="total" type="java.lang.String" />
+      <form-property name="page" type="java.lang.String" />
+      <form-property name="subaction" type="java.lang.String" />
+      <form-property name="ascDesc" type="java.lang.String" />
+      <form-property name="orderBy" type="java.lang.String" />
+      <form-property name="PAGER" type="java.lang.String" />
+      <form-property name="PAGERITEM" type="java.lang.String" />
+      <form-property name="gotoPage" type="java.lang.String" />
+      <form-property name="gotoPage2" type="java.lang.String" />
+      <form-property name="idKategori" type="java.lang.String" />
+   </form-bean>  
+   
+ <!-- Buku -->
+  <form-bean name="BukuForm" type="com.ams.form.BukuForm">
+     <form-property name="id" type="java.lang.String" />
+      <form-property name="kodeBuku" type="java.lang.String" />
+      <form-property name="judulBuku" type="java.lang.String" />
+      <form-property name="idKategori" type="java.lang.String" />
+      <form-property name="namaKategori" type="java.lang.String" />
+      <form-property name="jumlahBuku" type="java.lang.String" />
+      <form-property name="start" type="java.lang.String" />
+      <form-property name="count" type="java.lang.String" />
+      <form-property name="total" type="java.lang.String" />
+      <form-property name="page" type="java.lang.String" />
+      <form-property name="subaction" type="java.lang.String" />
+      <form-property name="ascDesc" type="java.lang.String" />
+      <form-property name="orderBy" type="java.lang.String" />
+      <form-property name="PAGER" type="java.lang.String" />
+      <form-property name="PAGERITEM" type="java.lang.String" />
+      <form-property name="gotoPage" type="java.lang.String" />
+      <form-property name="gotoPage2" type="java.lang.String" />
+      
+   </form-bean>  
+   
+    <!-- User -->
+  <form-bean name="UserForm" type="com.ams.form.UserForm">
+      <form-property name="id" type="java.lang.String" />
+      <form-property name="username" type="java.lang.String" />
+      <form-property name="password" type="java.lang.String" />
+      <form-property name="passwordConfirm" type="java.lang.String" />
+      <form-property name="start" type="java.lang.String" />
+      <form-property name="count" type="java.lang.String" />
+      <form-property name="total" type="java.lang.String" />
+      <form-property name="page" type="java.lang.String" />
+      <form-property name="subaction" type="java.lang.String" />
+      <form-property name="ascDesc" type="java.lang.String" />
+      <form-property name="orderBy" type="java.lang.String" />
+      <form-property name="PAGER" type="java.lang.String" />
+      <form-property name="PAGERITEM" type="java.lang.String" />
+      <form-property name="gotoPage" type="java.lang.String" />
+      <form-property name="gotoPage2" type="java.lang.String" />
+   </form-bean> 
+   
+   <!-- Sewa -->
+   <form-bean name="SewaForm" type="com.ams.form.SewaForm">
+      <form-property name="id" type="java.lang.String"/>
+	  <form-property name="idAnggota" type="java.lang.String" />
+	  <form-property name="namaAnggota" type="java.lang.String" />
+	  <form-property name="tglGabung" type="java.lang.String" />
+	  <form-property name="idDetailSewa" type="java.lang.String" />
+	  <form-property name="tglSewa" type="java.lang.String" />
+      <form-property name="tglKembali" type="java.lang.String" />
+      <form-property name="tglSewaMulai" type="java.lang.String" />
+      <form-property name="tglSewaAkhir" type="java.lang.String" />
+      <form-property name="tglKembaliMulai" type="java.lang.String" />
+      <form-property name="tglKembaliAkhir" type="java.lang.String" />
+      <form-property name="idBuku" type="java.lang.String" />
+      <form-property name="idBukuList" type="java.lang.String" />
+      <form-property name="judulBuku" type="java.lang.String" />
+      <form-property name="jumlahSewa" type="java.lang.String" />
+      <form-property name="start" type="java.lang.String" />
+      <form-property name="count" type="java.lang.String" />
+      <form-property name="total" type="java.lang.String" />
+      <form-property name="page" type="java.lang.String" />
+      <form-property name="subaction" type="java.lang.String" />
+      <form-property name="reportType" type="java.lang.String" />
+      <form-property name="ascDesc" type="java.lang.String" />
+      <form-property name="orderBy" type="java.lang.String" />
+      <form-property name="PAGER" type="java.lang.String" />
+      <form-property name="PAGERITEM" type="java.lang.String" />
+      <form-property name="gotoPage" type="java.lang.String" />
+      <form-property name="gotoPage2" type="java.lang.String" />
+   </form-bean>
+   
+   <!--    Laporan -->
+   <form-bean name="laporanForm" type="com.ams.form.LaporanForm">
+        	<form-property name="judulBuku" type="java.lang.String" />
+        	<form-property name="idKategori" type="java.lang.String" />
+        	<form-property name="tgl" type="java.lang.String" />
+        	<form-property name="tglSewaMulai" type="java.lang.String" />
+			<form-property name="tglSewaAkhir" type="java.lang.String" />
+			<form-property name="start" type="java.lang.String" />
+	      	<form-property name="count" type="java.lang.String" />
+	      	<form-property name="total" type="java.lang.String" />
+	      	<form-property name="page" type="java.lang.String" />
+	      	<form-property name="subaction" type="java.lang.String" />
+	      	<form-property name="ascDesc" type="java.lang.String" />
+	      	<form-property name="orderBy" type="java.lang.String" />
+	      	<form-property name="PAGER" type="java.lang.String" />
+	      	<form-property name="PAGERITEM" type="java.lang.String" />
+	      	<form-property name="gotoPage" type="java.lang.String" />
+	      	<form-property name="gotoPage2" type="java.lang.String" />
+        </form-bean>
+   
+   <!-- Login -->
+   <form-bean name="LoginForm" type="com.ams.form.LoginForm">
+		<form-property name="username" type="java.lang.String" />
+    	<form-property name="password" type="java.lang.String" />
+   </form-bean>
+        
+ </form-beans>
+ 
+ <global-forwards>
+ 	<forward name="login" path="/login.do" redirect="true"/>
+ </global-forwards>
+ 
+	<action-mappings>
+      
+    <!-- anggota action-->
+    
+	    <action
+		input="/jsp/anggota_list.jsp"  
+	    name="AnggotaForm"
+	    parameter="PARTIALLIST"     
+	    path="/anggota/list" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.AnggotaAction">
+	    <forward  name="success"  path="/jsp/anggota_list.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/anggota_list.jsp"  
+	    name="AnggotaForm"
+	    parameter="FORM"     
+	    path="/anggota/form" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.AnggotaAction">
+	    <forward  name="success"  path="/jsp/anggota_form.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/anggota_form.jsp"  
+	    name="AnggotaForm"
+	    parameter="SAVE"     
+	    path="/anggota/save" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.AnggotaAction">
+	    <forward  name="success"  path="/anggota/list.do"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/anggota_list.jsp"  
+	    name="AnggotaForm"
+	    parameter="DETAIL"     
+	    path="/anggota/detail" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.AnggotaAction">
+	    <forward  name="success"  path="/jsp/anggota_detail.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/anggota_list.jsp"  
+	    name="AnggotaForm"
+	    parameter="DELETE"     
+	    path="/anggota/delete" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.AnggotaAction">
+	    <forward  name="success"  path="/anggota/list.do"  />
+	    </action>
+	    
+	    <action
+        	attribute="AnggotaForm"
+            name="AnggotaForm"
+            parameter="POPUPANGGOTA"
+            path="/anggota/popup"
+            type="com.ams.action.AnggotaAction"
+            scope="request"
+            validate="false">
+            <forward name="success" path="/jsp/anggota_popup.jsp" />
+        </action>
+	  
+	  
+ <!-- kategori buku action-->
+	    
+	    <action
+		input="/jsp/kategori_list.jsp"  
+	    name="KategoriBukuForm"
+	    parameter="PARTIALLIST"     
+	    path="/kategori/list" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.KategoriBukuAction">
+	    <forward  name="success"  path="/jsp/kategori_list.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/kategori_list.jsp"  
+	    name="KategoriBukuForm"
+	    parameter="FORM"     
+	    path="/kategori/form" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.KategoriBukuAction">
+	    <forward  name="success"  path="/jsp/kategori_form.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/kategori_form.jsp"  
+	    name="KategoriBukuForm"
+	    parameter="SAVE"     
+	    path="/kategori/save" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.KategoriBukuAction">
+	    <forward  name="success"  path="/kategori/list.do"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/kategori_list.jsp"  
+	    name="KategoriBukuForm"
+	    parameter="DETAIL"     
+	    path="/kategori/detail" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.KategoriBukuAction">
+	    <forward  name="success"  path="/jsp/kategori_detail.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/kategori_list.jsp"  
+	    name="KategoriBukuForm"
+	    parameter="DELETE"     
+	    path="/kategori/delete" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.KategoriBukuAction">
+	    <forward  name="success"  path="/kategori/list.do"  />
+	    </action>
+    
+    <!-- buku action-->
+	    
+	    <action
+		input="/jsp/buku_list.jsp"  
+	    name="BukuForm"
+	    parameter="PARTIALLIST"     
+	    path="/buku/list" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.BukuAction">
+	    <forward  name="success"  path="/jsp/buku_list.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/buku_list.jsp"  
+	    name="BukuForm"
+	    parameter="FORM"     
+	    path="/buku/form" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.BukuAction">
+	    <forward  name="success"  path="/jsp/buku_form.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/buku_form.jsp"  
+	    name="BukuForm"
+	    parameter="SAVE"     
+	    path="/buku/save" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.BukuAction">
+	    <forward  name="success"  path="/buku/list.do"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/buku_list.jsp"  
+	    name="BukuForm"
+	    parameter="DETAIL"     
+	    path="/buku/detail" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.BukuAction">
+	    <forward  name="success"  path="/jsp/buku_detail.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/buku_list.jsp"  
+	    name="BukuForm"
+	    parameter="DELETE"     
+	    path="/buku/delete" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.BukuAction">
+	    <forward  name="success"  path="/buku/list.do"  />
+	    </action>
+	    
+	    <action
+        	attribute="BukuForm"
+            name="BukuForm"
+            parameter="POPUPBUKU"
+            path="/buku/popup"
+            type="com.ams.action.BukuAction"
+            scope="request"
+            validate="false">
+            <forward name="success" path="/jsp/buku_popup.jsp" />
+        </action>
+        
+	    <!-- user action-->
+	    
+	    <action
+		input="/jsp/user_list.jsp"  
+	    name="UserForm"
+	    parameter="PARTIALLIST"     
+	    path="/user/list" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.UserAction">
+	    <forward  name="success"  path="/jsp/user_list.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/user_list.jsp"  
+	    name="UserForm"
+	    parameter="FORM"     
+	    path="/user/form" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.UserAction">
+	    <forward  name="success"  path="/jsp/user_form.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/user_form.jsp"  
+	    name="UserForm"
+	    parameter="SAVE"     
+	    path="/user/save" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.UserAction">
+	    <forward  name="success"  path="/user/list.do"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/user_list.jsp"  
+	    name="UserForm"
+	    parameter="DETAIL"     
+	    path="/user/detail" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.UserAction">
+	    <forward  name="success"  path="/jsp/user_detail.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/user_list.jsp"  
+	    name="UserForm"
+	    parameter="DELETE"     
+	    path="/user/delete" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.UserAction">
+	    <forward  name="success"  path="/user/list.do"  />
+	    </action>
+	    
+	<!-- Sewa action-->
+        <action
+        attribute="SewaForm"
+		input="/jsp/sewa_list.jsp"  
+	    name="SewaForm"
+	    parameter="PARTIALLIST"     
+	    path="/sewa/list" 
+	    scope="request"  
+	    validate="false"
+	    type="com.ams.action.SewaAction">
+	    <forward  name="success"  path="/jsp/sewa_list.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/sewa_list.jsp"  
+	    name="SewaForm"
+	    parameter="FORM"     
+	    path="/sewa/form" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.SewaAction">
+	    <forward  name="form"  path="/jsp/sewa_form.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/sewa_form.jsp"  
+	    name="SewaForm"
+	    parameter="SAVE"     
+	    path="/sewa/save" 
+	    scope="request"  
+	    validate="false"
+	    type="com.ams.action.SewaAction">
+	    <forward name="success" path="/sewa/list.do" redirect="true" />
+       	<forward name="form" path="/sewa/form.do" />
+	    </action>
+	    
+	    <action
+		input="/jsp/sewa_list.jsp"  
+	    name="SewaForm"
+	    parameter="DETAIL"     
+	    path="/sewa/detail" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.SewaAction">
+	    <forward  name="success"  path="/jsp/sewa_detail.jsp"  />
+	    </action>
+	    
+	    <action
+		input="/jsp/sewa_list.jsp"  
+	    name="SewaForm"
+	    parameter="DELETE"     
+	    path="/sewa/delete" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.SewaAction">
+	    <forward  name="success"  path="/sewa/list.do" redirect="true"  />
+	    </action>
+	    
+	    <!-- Login -->
+	    <action 
+	    name="LoginForm"
+	    parameter="PERFORMLOGIN"     
+	    path="/login" 
+	    scope="request"  
+	    validate="true"
+	    type="com.ams.action.LoginAction">
+	    <forward  name="success"  path="/index.jsp"  />
+	    <forward name="failed" path="/login.jsp" />
+	    </action>
+	    
+	    <action
+            attribute="laporanForm"
+            input="/jsp/laporan_sewa.jsp"
+            name="laporanForm"
+            parameter="LAPORANSEWA"
+            path="/laporan/sewa"
+            scope="request"
+            type="com.ams.action.LaporanAction"
+            validate="true">
+            <forward name="list" path="/jsp/laporan_sewa.jsp" />
+        </action>
+        <action
+            attribute="laporanForm"
+            input="/jsp/laporan_stok.jsp"
+            name="laporanForm"
+            parameter="LAPORANSTOK"
+            path="/laporan/stok"
+            scope="request"
+            type="com.ams.action.LaporanAction"
+            validate="true">
+            <forward name="list" path="/jsp/laporan_stok.jsp" />
+        </action>
+	    
+	</action-mappings>
+	
+	<message-resources parameter="resource.ApplicationResources" />
+     <plug-in className="com.ams.mpe.comon.HibernatePlugIn">
+		<!-- 'path-to-config-file' is relative to the root of the classpath.  It MUST start with a '/'. The default is "/hibernate.cfg.xml" -->
+		<set-property property="configFilePath1" value="/hibernate.cfg.xml" />
+	</plug-in>
+	<plug-in className="com.ams.mpe.comon.HibernateUtil" />
+ 
+</struts-config>
+

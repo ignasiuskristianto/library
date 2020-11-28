@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.ams.model">
+<class
+name="Sewa"
+table="sewa"
+batch-size="100"
+>
+
+<meta attribute="sync-DAO">true</meta>
+
+<id
+name="Id"
+type="long"
+column="id_sewa"
+>
+<generator class="sequence">
+<param name="sequence">sewa_seq</param>
+</generator>
+</id>
+
+<many-to-one 
+name="Anggota"
+class="com.ams.model.Anggota"
+fetch="join">
+	<column name="id_anggota" not-null="true" />
+</many-to-one>
+
+<property 
+name="TglSewa"
+column="tgl_sewa"
+type="date"
+not-null="true"
+/>
+
+<property 
+name="TglKembali"
+column="tgl_kembali"
+type="date"
+not-null="true"
+/>
+
+<property
+name="CreatedBy"
+column="created_by"
+type="string"
+not-null="true"
+/>
+
+<property
+name="CreatedOn"
+column="created_on"
+type="timestamp"
+not-null="true"
+/>
+
+<property
+name="UpdatedBy"
+column="updated_by"
+type="string"
+not-null="false"
+/>
+
+<property
+name="UpdatedOn"
+column="updated_on"
+type="timestamp"
+not-null="false"
+/>
+
+<set name="DetailSewaList" table="detail_sewa" inverse="true" lazy="false" cascade="all-delete-orphan" batch-size="1000" >
+    <key column="id_sewa" not-null="true" />
+    <one-to-many class="com.ams.model.DetailSewa"/>
+</set>
+
+</class>
+</hibernate-mapping>
